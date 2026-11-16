@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GTA 6 Anti-Spoiler</title>
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <div class="brand">
+          <img class="mark" src="/icon/128.png" alt="" />
+          <div>
+            <h1>Anti-Spoiler</h1>
+            <p>Keep the reveal yours.</p>
+          </div>
+        </div>
+        <span id="status" class="status" role="status">Loading</span>
+      </header>
+
+      <section class="stats" aria-label="Protection statistics">
+        <div class="stats-main">
+          <span class="stats-label">Spoilers removed</span>
+          <strong id="hidden-count">0</strong>
+        </div>
+        <div class="stats-detail">
+          <div><strong id="today-count">0</strong><span>Today</span></div>
+          <div>
+            <strong id="feedback-count">0</strong
+            ><span>Not interested sent</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="settings" aria-label="Protection settings">
+        <label class="setting" for="enabled">
+          <span class="setting-copy"
+            ><strong>Block spoilers</strong
+            ><small>Remove matching posts, images, and videos</small></span
+          >
+          <input id="enabled" type="checkbox" checked />
+          <span class="switch" aria-hidden="true"></span>
+        </label>
+        <label class="setting" for="feedback">
+          <span class="setting-copy"
+            ><strong>Improve Feed recommendations</strong
+            ><small
+              >Optional: send “Not interested” for matching YouTube Home and
+              Watch Next videos</small
+            ></span
+          >
+          <input id="feedback" type="checkbox" />
+          <span class="switch" aria-hidden="true"></span>
+        </label>
+      </section>
+    </main>
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>

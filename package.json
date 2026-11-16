@@ -1,0 +1,26 @@
+{
+  "name": "gta-6-anti-spoiler",
+  "version": "0.0.2",
+  "private": true,
+  "description": "Browser extension that removes GTA 6 spoilers",
+  "type": "module",
+  "author": "Ge0rg3e",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "compile": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/*.test.mjs",
+    "postinstall": "wxt prepare"
+  },
+  "devDependencies": {
+    "happy-dom": "^21.0.4",
+    "typescript": "^5.9.3",
+    "vite": "^8.1.5",
+    "web-ext": "^10.5.0",
+    "wxt": "^0.21.3"
+  }
+}
