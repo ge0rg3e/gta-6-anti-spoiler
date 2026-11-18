@@ -25,4 +25,4 @@ The use of information received from Google APIs will adhere to the Chrome Web S
 
 ## Contact
 
-For privacy questions, open an issue at [github.com/ge0rg3e/gta-vi-anti-spoiler](https://github.com/ge0rg3e/gta-vi-anti-spoiler/issues).
+For privacy questions, open an issue at [github.com/ge0rg3e/gta-6-anti-spoiler](https://github.com/ge0rg3e/gta-6-anti-spoiler/issues).
