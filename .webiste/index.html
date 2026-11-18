@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#19141e">
+  <meta name="theme-color" content="#111217">
   <title>How to Avoid GTA 6 Spoilers on X, Instagram, TikTok & YouTube</title>
   <meta name="description" content="A practical GTA 6 spoiler protection guide: mute words on X and Instagram, filter TikTok keywords, tune YouTube recommendations, and block spoilers in your browser.">
   <link rel="canonical" href="https://ge0rg3e.github.io/gta-6-anti-spoiler/">
   <link rel="icon" href="icon.png">
-  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="dark.css">
   <meta property="og:type" content="article">
   <meta property="og:title" content="How to avoid GTA 6 spoilers">
   <meta property="og:description" content="Set up muted words and keyword filters across your feeds, then protect your browser too.">
@@ -22,7 +22,6 @@
       <a class="brand" href="./"><img src="icon.png" alt="">GTA 6 Anti-Spoiler</a>
       <nav class="site-nav" aria-label="Main navigation">
         <a href="#words">The guide</a>
-        <a href="#platforms">Platforms</a>
         <a href="privacy/">Privacy</a>
         <a class="nav-install" href="https://chromewebstore.google.com/detail/gta-6-anti-spoiler/ielpokmhonjhamkandomcpbeddlkhdff">Add to Chrome</a>
       </nav>
@@ -32,18 +31,20 @@
   <main>
     <section class="hero" aria-labelledby="hero-title">
       <div class="wrap hero-inner">
-        <div>
-          <h1 id="hero-title">Keep GTA 6<br>a surprise.</h1>
+        <h1 id="hero-title">Keep GTA 6<br>a surprise.</h1>
+        <div class="hero-bottom">
+          <div class="hero-message">
           <p class="hero-copy">Hide matching posts, images, and videos while you browse. Then set up a few filters for the social apps you use.</p>
           <div class="hero-actions">
             <a class="button-primary" href="https://chromewebstore.google.com/detail/gta-6-anti-spoiler/ielpokmhonjhamkandomcpbeddlkhdff">Add to Chrome</a>
             <a class="button-link" href="#words">Set up your feeds</a>
           </div>
+          </div>
+          <figure class="preview">
+            <img src="popup-preview.png" width="346" height="368" alt="GTA 6 Anti-Spoiler popup showing removed spoiler counts and blocking controls">
+            <figcaption>Your spoiler controls, one click away.</figcaption>
+          </figure>
         </div>
-        <figure class="preview">
-          <img src="popup-preview.png" width="346" height="368" alt="GTA 6 Anti-Spoiler popup showing removed spoiler counts and blocking controls">
-          <figcaption>Your spoiler controls, one click away.</figcaption>
-        </figure>
       </div>
     </section>
 
@@ -78,8 +79,8 @@
           <p class="section-intro">These controls help reduce accidental spoilers on the platforms where you scroll.</p>
         </div>
 
-        <article class="platform" id="x">
-          <div><h3>X</h3><p class="platform-summary">Mute the words in your Home timeline and notifications.</p></div>
+        <details class="platform" id="x" open>
+          <summary><span class="platform-name">X</span><span class="platform-summary">Mute the words in your Home timeline and notifications.</span><span class="expand" aria-hidden="true"></span></summary>
           <div class="platform-body">
             <ol>
               <li>Open <strong>Settings and privacy</strong> → <strong>Privacy and safety</strong> → <strong>Mute and block</strong> → <strong>Muted words</strong>.</li>
@@ -89,10 +90,10 @@
             <p class="platform-note">Muted words may still appear in search or in places X does not filter. Avoid searching for the game if you want zero previews.</p>
             <p class="source"><a href="https://help.x.com/en/using-x/advanced-x-mute-options">X’s muted words guide</a></p>
           </div>
-        </article>
+        </details>
 
-        <article class="platform" id="instagram">
-          <div><h3>Instagram</h3><p class="platform-summary">Filter suggested posts and steer topic recommendations.</p></div>
+        <details class="platform" id="instagram">
+          <summary><span class="platform-name">Instagram</span><span class="platform-summary">Filter suggested posts and steer topic recommendations.</span><span class="expand" aria-hidden="true"></span></summary>
           <div class="platform-body">
             <ol>
               <li>Open your profile menu → <strong>Content preferences</strong> → <strong>Specific words and phrases</strong>. Add the GTA 6 terms you want hidden from suggested posts.</li>
@@ -102,10 +103,10 @@
             <p class="platform-note">“Specific words and phrases” targets matching text in recommended posts. “Your algorithm” adjusts topics; it is not a strict block. Availability varies by surface and region. The separate Hidden Words controls for comments and messages serve a different purpose.</p>
             <p class="source"><a href="https://about.fb.com/news/2024/11/introducing-recommendations-reset-instagram/">Meta on suggested-post word controls</a> · <a href="https://about.fb.com/news/2026/05/new-supervision-tools-parents-insights-teens-algorithm/">Meta on Your Algorithm</a></p>
           </div>
-        </article>
+        </details>
 
-        <article class="platform" id="tiktok">
-          <div><h3>TikTok</h3><p class="platform-summary">Give your video feed the same keyword list.</p></div>
+        <details class="platform" id="tiktok">
+          <summary><span class="platform-name">TikTok</span><span class="platform-summary">Give your video feed the same keyword list.</span><span class="expand" aria-hidden="true"></span></summary>
           <div class="platform-body">
             <ol>
               <li>Open <strong>Profile</strong> → <strong>Menu</strong> → <strong>Settings and privacy</strong> → <strong>Content preferences</strong> → <strong>Filter keywords</strong>.</li>
@@ -115,10 +116,10 @@
             <p class="platform-note">Keyword filtering depends on the text TikTok can identify for a video; images and speech without matching metadata may still get through.</p>
             <p class="source"><a href="https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content">TikTok’s feed controls</a></p>
           </div>
-        </article>
+        </details>
 
-        <article class="platform" id="youtube">
-          <div><h3>YouTube</h3><p class="platform-summary">Train recommendations that keep surfacing the game.</p></div>
+        <details class="platform" id="youtube">
+          <summary><span class="platform-name">YouTube</span><span class="platform-summary">Train recommendations that keep surfacing the game.</span><span class="expand" aria-hidden="true"></span></summary>
           <div class="platform-body">
             <ol>
               <li>On a matching recommendation, open the <strong>⋮</strong> menu and choose <strong>Not interested</strong>.</li>
@@ -128,7 +129,7 @@
             <p class="platform-note">These choices may reduce future recommendations on your signed-in account, but they do not instantly block every matching video or thumbnail.</p>
             <p class="source"><a href="https://support.google.com/youtube/answer/6342839">YouTube’s recommendation guide</a></p>
           </div>
-        </article>
+        </details>
       </div>
     </section>
 
