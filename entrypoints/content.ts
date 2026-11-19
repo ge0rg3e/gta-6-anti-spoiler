@@ -3,7 +3,7 @@ import { containsEssentialUi, isProtectedMatch, safeRemovalTarget } from '../lib
 import { removeWithEmptyShelf, removalTarget } from '../lib/remove';
 
 const ENABLED_KEY = 'spoilerBlockerEnabled';
-const SPOILER = /\b(?:gta[\s\u00a0._:-]*(?:6|vi)|grand[\s\u00a0-]+theft[\s\u00a0-]+auto[\s\u00a0-]+(?:6|vi))\b/i;
+const SPOILER = /\b(?:gta[\s\u00a0._:-]*(?:6|vi)|grand[\s\u00a0-]+theft[\s\u00a0-]+auto[\s\u00a0-]+(?:6|vi)|vice\s*city|leonida)\b/i;
 const IGNORED = 'head, script, style, noscript, template, textarea, input, option, svg, [contenteditable], [data-gta6-placeholder]';
 const CONTENT_CONTAINER = 'article, [role="article"], li, [role="listitem"], [class*="card"], [class*="post"], [class*="result"], [class*="story"]';
 const IMAGE_ATTRIBUTES = ['alt', 'title', 'aria-label', 'src', 'srcset', 'data-src'];
