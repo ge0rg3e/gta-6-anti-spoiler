@@ -1,6 +1,6 @@
 {
   "name": "gta-6-anti-spoiler",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "description": "Browser extension that removes GTA 6 spoilers",
   "type": "module",

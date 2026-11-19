@@ -5,7 +5,7 @@ export default defineConfig({
     name: "GTA 6 Anti-Spoiler",
     description:
       "Extension that removes GTA 6 mentions before they spoil the game.",
-    version: "0.0.2",
+    version: "0.0.3",
     icons: {
       16: "icon/16.png",
       32: "icon/32.png",
